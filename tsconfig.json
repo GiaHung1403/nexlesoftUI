@@ -1,0 +1,62 @@
+// {
+//   "compilerOptions": {
+//     "target": "esnext",
+//     "module": "commonjs",
+//     "lib": ["es6", "ES2021.String"],
+//     "allowJs": true,
+//     "checkJs": true,
+//     "jsx": "react-native",
+//     "outDir": "./index.js",
+//     "isolatedModules": true,
+//     "strict": true,
+//     "noImplicitAny": false,
+//     "moduleResolution": "node",
+//     "baseUrl": "./src",
+//     "paths": {
+//       "@assets/*": ["assets/*"],
+//       "@components/*": ["components/*"],
+//       "@screens/*": ["screens/*"],
+//       "@data/*": ["data/*"]
+//     },
+//     "allowSyntheticDefaultImports": true,
+//     "esModuleInterop": true,
+//     "experimentalDecorators": true
+//   },
+//   "exclude": ["node_modules", "babel.config.js", "metro.config.js"],
+//   "extends": "expo/tsconfig.base"
+//   // "extends": "@react-native/typescript-config/tsconfig.json"
+// }
+
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "lib": ["es6", "ES2021.String"],
+    "allowJs": true,
+    "checkJs": true,
+    "jsx": "react-native",
+    "outDir": "./index.js",
+    "isolatedModules": true,
+    "strict": true,
+    "noImplicitAny": false,
+    "moduleResolution": "node",
+    "baseUrl": "./src",
+    "paths": {
+      "@assets/*": ["assets/*"],
+      "@components/*": ["components/*"],
+      "@screens/*": ["screens/*"],
+      "@data/*": ["data/*"]
+    },
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true
+  },
+  "exclude": [
+    "node_modules",
+    "babel.config.js",
+    "metro.config.js",
+    "jest.config.js",
+    "__tests__"
+  ],
+  "extends": "expo/tsconfig.base"
+}
